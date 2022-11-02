@@ -22,7 +22,7 @@ struct GradientsBootcamp: View {
 //                    startRadius: 5,
 //                    endRadius: 200)
                 AngularGradient(
-                    gradient: Gradient(colors: [Color.red, Color.blue]),
+                    gradient: Gradient(colors: [Color.blue, Color.white]),
                     center: .topLeading,
                     angle: .degrees(180 + 45))
             )
