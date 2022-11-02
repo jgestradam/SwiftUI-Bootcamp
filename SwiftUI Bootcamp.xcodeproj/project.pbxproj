@@ -11,6 +11,7 @@
 		5DCC31992912097100EAADC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC31982912097100EAADC2 /* ContentView.swift */; };
 		5DCC319B2912097200EAADC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCC319A2912097200EAADC2 /* Assets.xcassets */; };
 		5DCC319E2912097200EAADC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCC319D2912097200EAADC2 /* Preview Assets.xcassets */; };
+		5DCC31A629120A1D00EAADC2 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC31A529120A1D00EAADC2 /* TextBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5DCC31982912097100EAADC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DCC319A2912097200EAADC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DCC319D2912097200EAADC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DCC31A529120A1D00EAADC2 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		5DCC31952912097100EAADC2 /* SwiftUI Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				5DCC31A42912099700EAADC2 /* Class#2 */,
 				5DCC31962912097100EAADC2 /* SwiftUI_BootcampApp.swift */,
 				5DCC31982912097100EAADC2 /* ContentView.swift */,
 				5DCC319A2912097200EAADC2 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				5DCC319D2912097200EAADC2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DCC31A42912099700EAADC2 /* Class#2 */ = {
+			isa = PBXGroup;
+			children = (
+				5DCC31A529120A1D00EAADC2 /* TextBootcamp.swift */,
+			);
+			path = "Class#2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DCC31992912097100EAADC2 /* ContentView.swift in Sources */,
+				5DCC31A629120A1D00EAADC2 /* TextBootcamp.swift in Sources */,
 				5DCC31972912097100EAADC2 /* SwiftUI_BootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
