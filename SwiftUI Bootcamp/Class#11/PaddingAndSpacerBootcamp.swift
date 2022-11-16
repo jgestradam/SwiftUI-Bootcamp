@@ -18,7 +18,7 @@ struct PaddingAndSpacerBootcamp: View {
     //            .background(Color.blue)
                 .font(.largeTitle)
                 .fontWeight(.semibold)
-                .padding(.bottom, 20)
+                .padding(.bottom)
             
             Text("This is the description of what we will do on this screen. It is multiple lines and we will aling the text to the leading edge.")
         }
