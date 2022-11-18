@@ -4,7 +4,6 @@
 //
 //  Created by Joseph Estrada on 11/17/22.
 //
-
 import SwiftUI
 
 struct ExtractSubviewsBootcamp: View {
