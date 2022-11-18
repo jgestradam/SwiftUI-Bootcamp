@@ -14,6 +14,7 @@ struct SafeAreaBootcamp: View {
                 Text("Title goes here")
                     .font(.largeTitle)
                 .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.horizontal)
                 
                 ForEach(0..<10) { INDEX in
                     RoundedRectangle(cornerRadius: 25.0)
@@ -25,10 +26,10 @@ struct SafeAreaBootcamp: View {
             }
         }
         //.background(Color.blue)
-        .background(
-            Color.red
-            .edgesIgnoringSafeArea(.all)
-        )
+        //.background(
+        //    Color.red
+        //    .edgesIgnoringSafeArea(.all)
+        //)
 //        ZStack {
 //
 //            //background
