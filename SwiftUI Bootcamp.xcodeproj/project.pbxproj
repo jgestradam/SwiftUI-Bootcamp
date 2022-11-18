@@ -18,6 +18,7 @@
 		5D7C608129268F270036C795 /* GridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C608029268F270036C795 /* GridBootcamp.swift */; };
 		5D7C60842926E8A10036C795 /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C60832926E8A10036C795 /* SafeAreaBootcamp.swift */; };
 		5D7C6087292704880036C795 /* ButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C6086292704880036C795 /* ButtonsBootcamp.swift */; };
+		5D7C608A2927103C0036C795 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C60892927103C0036C795 /* StateBootcamp.swift */; };
 		5DCC31972912097100EAADC2 /* SwiftUI_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC31962912097100EAADC2 /* SwiftUI_BootcampApp.swift */; };
 		5DCC31992912097100EAADC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC31982912097100EAADC2 /* ContentView.swift */; };
 		5DCC319B2912097200EAADC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCC319A2912097200EAADC2 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		5D7C608029268F270036C795 /* GridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootcamp.swift; sourceTree = "<group>"; };
 		5D7C60832926E8A10036C795 /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
 		5D7C6086292704880036C795 /* ButtonsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootcamp.swift; sourceTree = "<group>"; };
+		5D7C60892927103C0036C795 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
 		5DCC31932912097100EAADC2 /* SwiftUI Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCC31962912097100EAADC2 /* SwiftUI_BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BootcampApp.swift; sourceTree = "<group>"; };
 		5DCC31982912097100EAADC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -154,6 +156,14 @@
 			path = "Class#18";
 			sourceTree = "<group>";
 		};
+		5D7C608829270FE80036C795 /* Class#19 */ = {
+			isa = PBXGroup;
+			children = (
+				5D7C60892927103C0036C795 /* StateBootcamp.swift */,
+			);
+			path = "Class#19";
+			sourceTree = "<group>";
+		};
 		5DCC318A2912097100EAADC2 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +183,7 @@
 		5DCC31952912097100EAADC2 /* SwiftUI Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				5D7C608829270FE80036C795 /* Class#19 */,
 				5D7C60852927046A0036C795 /* Class#18 */,
 				5D7C60822926E85F0036C795 /* Class#17 */,
 				5D7C607F29268EAB0036C795 /* Class#16 */,
@@ -324,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7C608A2927103C0036C795 /* StateBootcamp.swift in Sources */,
 				5DCC31AF2912AAEC00EAADC2 /* GradientsBootcamp.swift in Sources */,
 				5D7C606B29253F9D0036C795 /* BackgroundAndOverlayBootcamp.swift in Sources */,
 				5D7C607E2926881F0036C795 /* ScrollViewBootcamp.swift in Sources */,
