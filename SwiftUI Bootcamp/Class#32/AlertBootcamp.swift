@@ -4,7 +4,6 @@
 //
 //  Created by Joseph Estrada on 11/19/22.
 //
-
 import SwiftUI
 
 struct AlertBootcamp: View {
